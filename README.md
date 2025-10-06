@@ -1,10 +1,9 @@
 # ContactsManagerSolution
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/yamenArmeet/ContactsManagerSolution/dotnet.yml?branch=main)](https://github.com/yamenArmeet/ContactsManagerSolution/actions)
-[![.NET](https://img.shields.io/badge/.NET-6%2B-blue)](https://dotnet.microsoft.com)
+[![.NET](https://img.shields.io/badge/.NET-8%2B-blue)](https://dotnet.microsoft.com)
 
-A modular, clean-architecture contacts management solution built in .NET. This project demonstrates layered separation, dependency injection, and test coverage, enabling you to manage contacts (CRUD) in a robust and maintainable way.
+A modular, clean-architecture contacts management solution built in .NET 8. This project demonstrates layered separation, dependency injection, and test coverage, enabling you to manage contacts (CRUD) in a robust and maintainable way.
 
 ---
 
@@ -23,8 +22,7 @@ A modular, clean-architecture contacts management solution built in .NET. This p
 6. [Project Structure](#project-structure)
 7. [Technologies & Tools](#technologies--tools)
 8. [Contributing](#contributing)
-9. [License](#license)
-10. [Contact](#contact)
+9. [Contact](#contact)
 
 ---
 
@@ -56,7 +54,7 @@ Dependency inversion is applied: higher-level layers depend on abstractions in C
 
 ### Prerequisites
 
-* .NET SDK (6.0 or newer)
+* .NET SDK (8.0 or newer)
 * IDE (Visual Studio / VS Code / Rider)
 * Git
 
@@ -118,28 +116,26 @@ Ensure all tests pass before merging changes.
 4. Edit or delete contacts as needed.
 5. Optionally, add filters, search, validations, etc.
 
-You can enhance this section with screenshots or sample API endpoints once your UI or API is in place.
-
 ---
 
 ## 💾 Project Structure
 
 ```
 ContactsManagerSolution/
-├── ContactsManager.Core/             # Domain models, interfaces, business logic contracts  
-├── ContactsManager.Infrastructure/   # Data persistence, repository implementations  
-├── ContactsManager.UI/               # UI or entry-point (console, GUI, API)  
-├── ContactsManager.ServiceTests/     # Unit tests for service/business logic  
-├── ContactsManager.ControllerTests/  # (If present) tests for controllers / API  
-├── ContactsManager.IntegrationTests/ # Integration / end-to-end tests  
-└── ContactsManagerSolution.sln       # Solution file  
+├── ContactsManager.Core/             # Domain models, interfaces, business logic contracts
+├── ContactsManager.Infrastructure/   # Data persistence, repository implementations
+├── ContactsManager.UI/               # UI or entry-point (console, GUI, API)
+├── ContactsManager.ServiceTests/     # Unit tests for service/business logic
+├── ContactsManager.ControllerTests/  # (If present) tests for controllers / API
+├── ContactsManager.IntegrationTests/ # Integration / end-to-end tests
+└── ContactsManagerSolution.sln       # Solution file
 ```
 
 ---
 
 ## 🧰 Technologies & Tools
 
-* **C# / .NET 6+**
+* **C# / .NET 8+**
 * (If applicable) **Entity Framework Core**
 * xUnit / NUnit / MSTest (depending on your test framework)
 * Dependency Injection
@@ -169,19 +165,11 @@ Please ensure your PR passes all tests and follows code review guidelines.
 
 ---
 
-## 🪪 License
-
-This project is licensed under the **MIT License**.
-See the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📬 Contact
 
 **Yamen Armeet**
 GitHub: [yamenArmeet](https://github.com/yamenArmeet)
 Email: [yamen.nasri.armeet@gmail.com](mailto:yamen.nasri.armeet@gmail.com)
-LinkedIn / Website: (optional)
 
 ---
 
