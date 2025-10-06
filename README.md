@@ -35,7 +35,7 @@ A modular, clean-architecture contacts management solution built in .NET. This p
 * Repository / data access abstraction
 * Unit tests and integration tests
 * Clean architecture (Core / Infrastructure / UI / Tests)
-* Easy to extend (e.g. add UI, API, alternate storage)
+* Easy to extend (e.g., add UI, API, alternate storage)
 
 ---
 
@@ -48,7 +48,7 @@ The solution uses a layered architecture to separate concerns:
 * **UI** — The user interface (or entry point)
 * **Tests** — Unit and integration tests
 
-Dependency inversion is applied: higher-level layers depend on abstractions in Core, not on concrete implementations.
+Dependency inversion is applied: higher-level layers depend on abstractions in Core, not concrete implementations.
 
 ---
 
@@ -71,7 +71,7 @@ dotnet build
 
 ### Configuration
 
-If your Infrastructure layer uses a database (e.g. SQL Server, SQLite), update connection strings (e.g. in `appsettings.json` or in environment variables) as needed. Run migrations if applicable:
+If your Infrastructure layer uses a database (e.g., SQL Server, SQLite), update connection strings (e.g., in `appsettings.json` or environment variables) as needed. Run migrations if applicable:
 
 ```bash
 dotnet ef database update --project ContactsManager.Infrastructure
@@ -122,7 +122,7 @@ You can enhance this section with screenshots or sample API endpoints once your 
 
 ---
 
-## 📁 Project Structure
+## 💾 Project Structure
 
 ```
 ContactsManagerSolution/
@@ -155,9 +155,10 @@ We welcome contributions! To contribute:
 1. Fork the repository
 2. Create a feature branch:
 
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
+```bash
+git checkout -b feature/YourFeatureName
+```
+
 3. Implement your changes, adhering to existing styles and architecture
 4. Write tests for new features or fixes
 5. Run all tests locally
